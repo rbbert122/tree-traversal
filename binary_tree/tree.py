@@ -67,7 +67,7 @@ class Tree:
         Returns:
             None
         """
-        self.root = Node(None)
+        self.root = None
 
     def print_tree(self):
         """Method for print the tree
