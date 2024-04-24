@@ -1,5 +1,5 @@
-from tree import Tree
-from node import Node
+from binary_tree.tree import Tree
+from binary_tree.node import Node
 
 tree = Tree()
 
@@ -8,4 +8,4 @@ tree.add(4)
 tree.add(0)
 tree.add(8)
 tree.add(2)
-tree.printTree()
+tree.print_tree()
